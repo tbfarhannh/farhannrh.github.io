@@ -12,7 +12,8 @@
     <meta name="author" content="farhannrh_">
 
     <!-- ===== Favicon ===== -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link href="assets/img/circle.svg" rel="icon">
+    <link href="assets/img/circle.svg" rel="apple-touch-icon">
 
     <!-- ===== Google Fonts ===== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,12 +22,432 @@
 
     <!-- ===== Assets CSS ===== -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href="assets/css/light-mode.css" rel="stylesheet" id="main-style">
+    <link href="assets/css/dark-mode.css" rel="stylesheet" id="dark-mode-style" disabled>
 </head>
 
 <body>
+    <!-- ===== Navigation ===== -->
+    <nav class="nav" aria-label="Navigation Bar">
+        <div class="logo">
+            <a href="#">My Portfolio</a>
+        </div> 
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="btn-mode">
+            <a id="light-mode-btn" aria-label="Button Light Mode">Light</a>
+            <a id="dark-mode-btn" aria-label="Button Dark Mode">Dark</a>
+        </div>  
+    </nav> <!-- ===== End Navigation ===== -->
 
-    
+    <!-- ===== Sosial Media ===== -->
+    <div class="sosial-media">
+        <div class="line-sosial-media"></div>
+        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-behance"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="bi bi-pinterest"></i></a>
+    </div> <!-- ===== En Sosial Media ===== -->
+
+    <main>
+        <!-- ===== Hero Section ===== -->
+        <section class="hero" id="home">
+            <div class="container">
+                <h1>Welcome to <span>My Portfolio.</span></h1>
+                <h2>I’m <span class="animated-text"></span><span class="cursor">|</span></h2>
+                <a href="#" target="_blank">Let's Collaborate</a>
+            </div>
+        </section> <!-- ===== End Hero Section ===== -->
+
+        <!-- ===== About Section ===== -->
+        <section class="about" id="about">
+            <!-- Title -->
+            <div class="container">
+                <div class="sub-title">
+                    <h5>About</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="title">
+                    <h3>About Me</h3>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <div class="img-profile">
+                    <img src="assets/img/gallery/my-profile.jpg" alt="My Profile" loading="lazy">
+                </div>
+
+                <div class="content">
+                    <h4>Tubagus Farhan Nur Hakim.</h4>
+                    <p class="p2">Hi! I'm Tubagus Farhan Nur Hakim, or just Farhan. I’m a freelance graphic designer, UI/UX designer, and web developer. I’m passionate about creating visually appealing, intuitive, and user-friendly designs. I love helping clients turn their ideas into reality with effective designs and innovative solutions. Always learning and growing in design and web development, I aim to exceed expectations and create exceptional user experiences. Feel free to reach out if you want to collaborate or discuss a project!</p>
+                    <div class="container">
+                        <div class="item">
+                            <svg class="icon-svg" width="10" height="17" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331946 16.6681C-0.110649 16.2255 -0.110649 15.5079 0.331946 15.0653L6.89722 8.5L0.331945 1.93472C-0.110649 1.49213 -0.110649 0.77454 0.331945 0.331946C0.774539 -0.110649 1.49213 -0.110649 1.93472 0.331946L8.5 6.89722C9.38519 7.78241 9.38519 9.21759 8.5 10.1028L1.93472 16.6681C1.49213 17.1106 0.77454 17.1106 0.331946 16.6681Z" />
+                            </svg>
+                            <p><span>Birthday :</span> 04 December 2002.</p>
+                        </div>
+                        <div class="item">
+                            <svg class="icon-svg" width="10" height="17" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331946 16.6681C-0.110649 16.2255 -0.110649 15.5079 0.331946 15.0653L6.89722 8.5L0.331945 1.93472C-0.110649 1.49213 -0.110649 0.77454 0.331945 0.331946C0.774539 -0.110649 1.49213 -0.110649 1.93472 0.331946L8.5 6.89722C9.38519 7.78241 9.38519 9.21759 8.5 10.1028L1.93472 16.6681C1.49213 17.1106 0.77454 17.1106 0.331946 16.6681Z" />
+                            </svg>
+                            <p><span>Age :</span> 22.</p>
+                        </div>
+                        <div class="item">
+                            <svg class="icon-svg" width="10" height="17" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331946 16.6681C-0.110649 16.2255 -0.110649 15.5079 0.331946 15.0653L6.89722 8.5L0.331945 1.93472C-0.110649 1.49213 -0.110649 0.77454 0.331945 0.331946C0.774539 -0.110649 1.49213 -0.110649 1.93472 0.331946L8.5 6.89722C9.38519 7.78241 9.38519 9.21759 8.5 10.1028L1.93472 16.6681C1.49213 17.1106 0.77454 17.1106 0.331946 16.6681Z" />
+                            </svg>
+                            <p><span>Degree :</span> Active Undergraduate Students.</p>
+                        </div>
+                        <div class="item">
+                            <svg class="icon-svg" width="10" height="17" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331946 16.6681C-0.110649 16.2255 -0.110649 15.5079 0.331946 15.0653L6.89722 8.5L0.331945 1.93472C-0.110649 1.49213 -0.110649 0.77454 0.331945 0.331946C0.774539 -0.110649 1.49213 -0.110649 1.93472 0.331946L8.5 6.89722C9.38519 7.78241 9.38519 9.21759 8.5 10.1028L1.93472 16.6681C1.49213 17.1106 0.77454 17.1106 0.331946 16.6681Z" />
+                            </svg>
+                            <p><span>City :</span> Serang, Indonesia.</p>
+                        </div>
+                        <div class="item">
+                            <svg class="icon-svg" width="10" height="17" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331946 16.6681C-0.110649 16.2255 -0.110649 15.5079 0.331946 15.0653L6.89722 8.5L0.331945 1.93472C-0.110649 1.49213 -0.110649 0.77454 0.331945 0.331946C0.774539 -0.110649 1.49213 -0.110649 1.93472 0.331946L8.5 6.89722C9.38519 7.78241 9.38519 9.21759 8.5 10.1028L1.93472 16.6681C1.49213 17.1106 0.77454 17.1106 0.331946 16.6681Z" />
+                            </svg>
+                            <p><span>Email :</span> <a href="mailto:tubagusfn14@gmail.com" target="_blank">tubagusfn14@gmail.com.</a></p>
+                        </div>
+                        <div class="item">
+                            <svg class="icon-svg" width="10" height="17" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331946 16.6681C-0.110649 16.2255 -0.110649 15.5079 0.331946 15.0653L6.89722 8.5L0.331945 1.93472C-0.110649 1.49213 -0.110649 0.77454 0.331945 0.331946C0.774539 -0.110649 1.49213 -0.110649 1.93472 0.331946L8.5 6.89722C9.38519 7.78241 9.38519 9.21759 8.5 10.1028L1.93472 16.6681C1.49213 17.1106 0.77454 17.1106 0.331946 16.6681Z" />
+                            </svg>
+                            <p><span>Phone :</span> <a href="#" target="_blank">+62 812-9956-6659.</a></p>
+                        </div>
+                        <div class="item">
+                            <svg class="icon-svg" width="10" height="17" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.331946 16.6681C-0.110649 16.2255 -0.110649 15.5079 0.331946 15.0653L6.89722 8.5L0.331945 1.93472C-0.110649 1.49213 -0.110649 0.77454 0.331945 0.331946C0.774539 -0.110649 1.49213 -0.110649 1.93472 0.331946L8.5 6.89722C9.38519 7.78241 9.38519 9.21759 8.5 10.1028L1.93472 16.6681C1.49213 17.1106 0.77454 17.1106 0.331946 16.6681Z" />
+                            </svg>
+                            <p><span>Freelance :</span> Available.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ===== End About Section ===== -->
+
+        <!-- ===== Resume Section ===== -->
+        <section class="resume" id="resume">
+            <!-- Title -->
+            <div class="container">
+                <div class="sub-title">
+                    <h5>Resume</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="title">
+                    <h3>My Resume</h3>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <div class="education">
+                    <h4>Education</h4>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>Senior High School 5 Serang City.</h6>
+                            <p>2018 - 2021.</p>
+                            <p><em>Department of Natural Sciences.</em></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>BBPVP Serang City.</h6>
+                            <p>2022 - 2022.</p>
+                            <p><em>Department of Electrical Engineering (PLTS).</em></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>Pamulang University Serang.</h6>
+                            <p>2023 - Present (5th Semester).</p>
+                            <p><em>Department of Information Systems.</em></p>
+                        </div>
+                    </div>
+                    <div class="line-item"></div>
+                </div>
+
+                <div class="experience">
+                    <h4>Experience</h4>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>PLSAJSTORE Serang City.</h6>
+                            <p>June 2021 - June 2022.</p>
+                            <p><em>Online Shop Administrator.</em></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>PT. Zhi Sheng Indonesia Cilegon City.</h6>
+                            <p>June 2022 - October 2022.</p>
+                            <p><em>Promoter.</em></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>Freelance.</h6>
+                            <p>2023 - Present.</p>
+                            <p><em>Graphic Designer and Web Developer.</em></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>PT. Kaosintim UMKM Indonesia.</h6>
+                            <p>August 2024 - December 2024.</p>
+                            <p><em>Graphic Designer.</em></p>
+                        </div>
+                    </div>
+                    <div class="line-item"></div>
+                </div>
+
+                <div class="certificate">
+                    <h4>Certificate</h4>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>BNSP Certificate.</h6>
+                            <p>2022.</p>
+                            <p><em>Off-Grid Solar Power Generation.</em></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>BBPVP Serang Certificate.</h6>
+                            <p>2022.</p>
+                            <p><em>Off-Grid Solar Power Generation.</em></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <svg class="icon-svg" width="19" height="19" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="19" height="19" rx="10"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"/>
+                        </svg>
+                        <div class="item">
+                            <h6>National Seminar Certificate.</h6>
+                            <p>2024.</p>
+                            <p><em>Product and IT Infrastructure Development.</em></p>
+                        </div>
+                    </div>
+                    <div class="line-item"></div>
+                </div>
+            </div>
+        </section> <!-- ===== End Resume Section ===== -->
+
+        <!-- ===== Skills Section ===== -->
+        <section class="skills" id="skills">
+            <!-- Title -->
+            <div class="container">
+                <div class="sub-title">
+                    <h5>Skills</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="title">
+                    <h3>My Skills</h3>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <div class="progress">
+                    <div class="skill"><h6>Frontend Developer</h6><h6>85%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>Graphic Desainer</h6><h6>90%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>HTML</h6><h6>90%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>Adobe Illustrator</h6><h6>90%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>CSS</h6><h6>85%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>Adobe Photoshop</h6><h6>85%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>JavaScript</h6><h6>75%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>Figma</h6><h6>85%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>Microsoft Office</h6><h6>85%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="skill"><h6>UI/UX Design</h6><h6>75%</h6></div>
+                    <div class="progress-bar-wrap">
+                        <div role="progressbar" class="progress-bar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ===== End Skills Section ===== -->
+
+        <!-- ===== Portfolio Section ===== -->
+        <section class="portfolio" id="portfolio">
+            <!-- Title -->
+            <div class="container">
+                <div class="sub-title">
+                    <h5>Portfolio</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="title">
+                    <h3>My Portfolio</h3>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <p>Hey guys! Below are some of the works I've created with creativity, attention to detail, and dedication. Each design and project is crafted with a focus on aesthetics, functionality, and the best user experience. Explore and get inspired by various creative explorations in design and digital development. Hope you find them inspiring!</p>
+            </div>
+            <div class="gallery-portfolio">
+                <div class="gallery-top">
+                    <img src="assets/img/icon-svg/rectangle-dark.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-light.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-dark.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-light.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-dark.svg" alt="Galley 1" loading="lazy">
+                </div>
+                <div class="gallery-bottom">
+                    <img src="assets/img/icon-svg/rectangle-dark.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-light.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-dark.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-light.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-dark.svg" alt="Galley 1" loading="lazy">
+                    <img src="assets/img/icon-svg/rectangle-light.svg" alt="Galley 1" loading="lazy">
+                </div>
+            </div>
+        </section> <!-- ===== End Portfolio Section ===== -->
+
+        <!-- ===== Contact Section ===== -->
+        <section class="contact" id="contact">
+            <!-- Title -->
+            <div class="container">
+                <div class="sub-title">
+                    <h5>Contact</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="title">
+                    <h3>Contact Me</h3>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <form name="my-portfolio-contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your name*" aria-describedby="name" required>
+                        </div>  
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email*" aria-describedby="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" placeholder="Enter your subject*" aria-describedby="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Enter your message*" required></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn">Send Message</button>
+                </form>
+
+                <div id="notification" class="hidden">Your message has been sent successfully!</div>
+            </div>
+        </section> <!-- ===== End Contact Section ===== -->
+    </main>
+
+    <!-- ===== BacktoTop ===== -->
+    <div class="backToTop" id="backToTop">
+        <svg class="icon-backToTop" width="15" height="11" viewBox="0 0 18 11" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7501 9.74999C16.3075 10.1926 15.5899 10.1926 15.1473 9.74999L8.58203 3.18472L2.01675 9.75C1.57416 10.1926 0.856571 10.1926 0.413977 9.75C-0.0286177 9.3074 -0.0286177 8.58981 0.413977 8.14722L6.97925 1.58194C7.86444 0.696752 9.29962 0.696754 10.1848 1.58194L16.7501 8.14722C17.1927 8.58981 17.1927 9.3074 16.7501 9.74999Z" />
+        </svg>
+    </div>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <p>© Copyright 2025 | All rights reserved.</p>
+        <p>Designer by <a href="https://instagram.com/farhannrh_" target="_blank">farhannrh_</a></p>
+    </footer> <!-- ===== End Footer ===== -->
 
     <!-- ===== Assets JS ===== -->
     <script src="assets/js/script.js"></script>
